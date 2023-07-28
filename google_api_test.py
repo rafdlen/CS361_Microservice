@@ -20,7 +20,7 @@ def translate_text(text, target_language, api_key):
 
 
 # Replace 'YOUR_API_KEY' with your actual API key
-api_key = ""
+api_key = "YOUR_API_KEY"
 translated_text = translate_text("Hello, World!", "es", api_key)
 print(translated_text)
 
