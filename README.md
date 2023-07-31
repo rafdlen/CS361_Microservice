@@ -52,3 +52,17 @@ To run the application locally, execute the following command in your terminal:
 python app.py
 ```
 The application will be available at http://localhost:5000.
+
+## UML
+
+```
++---------------------------+
+|      Flask Application    |
++---------------------------+
+| -app: Flask              |
+| -max_val: int            |
+| -random_number: int      |
++---------------------------+
+| +generate_random_number()|
++---------------------------+
+```
