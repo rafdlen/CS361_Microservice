@@ -29,23 +29,27 @@ The response is a JSON object that contains one property:
 - `random_number`: A randomly generated integer from 0 to `max`.
 
 Example of response body:
+'''
 {
 "random_number": 7
 }
+'''
 
 ### Error Handling
 
 In case of an invalid request, the API will respond with an error message.
 
 Example of error response:
+'''
 {
 "error": "Invalid 'max' value. It must be non-negative."
 }
+'''
 
 ## Local Development
 
 To run the application locally, execute the following command in your terminal:
-
+'''
 python app.py
-
+'''
 The application will be available at http://localhost:5000.
