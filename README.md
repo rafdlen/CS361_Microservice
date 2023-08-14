@@ -55,14 +55,4 @@ The application will be available at http://localhost:5000.
 
 ## UML
 
-```
-+---------------------------+
-|      Flask Application    |
-+---------------------------+
-| -app: Flask              |
-| -max_val: int            |
-| -random_number: int      |
-+---------------------------+
-| +generate_random_number()|
-+---------------------------+
-```
+![Screenshot 2023-08-14 at 16 27 23](https://github.com/rafdlen/CS361_Microservice/assets/101730999/28f7865e-a155-4700-ba9a-1d2979390f71)
